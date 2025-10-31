@@ -5,6 +5,7 @@
 */
 :root.theme-light {
   --bg-image: url("../images/cover-image-light.png");
+  --bg-color:rgba(255, 241, 247, 1);
   --accent-color: rgba(255, 141, 203, 1);
   --button-color:rgba(53, 52, 48, 1);
   --button-accent:rgba(53, 52, 48, 1);
@@ -19,6 +20,7 @@
 @media (prefers-color-scheme: light) {
   html.theme-auto {
   --bg-image: url("../images/cover-image-light.png");
+  --bg-color:rgba(255, 241, 247, 1);
   --accent-color: rgba(255, 141, 203, 1);
   --button-color:rgba(53, 52, 48, 1);
   --button-accent:rgba(53, 52, 48, 1);

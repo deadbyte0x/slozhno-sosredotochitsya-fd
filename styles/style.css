@@ -3,7 +3,7 @@
   background-image: var(--bg-image);
   background-position: center;
   background-attachment: fixed;
-  background-color: darkblue;
+  background-color: var(--bg-color);
   font-family: "IBM Plex Mono", monospace;
   background-size: cover;
 }
