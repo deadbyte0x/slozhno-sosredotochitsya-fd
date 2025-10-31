@@ -3,7 +3,6 @@
   Здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-
 :root.theme-light {
   --bg-image: url("../images/cover-image-light.png");
   --accent-color: rgba(255, 141, 203, 1);
@@ -14,5 +13,20 @@
   --section-text:rgba(53, 52, 48, 1);
   .decoration__text {
   display: none;
+}
+}
+
+@media (prefers-color-scheme: light) {
+  html.theme-auto {
+  --bg-image: url("../images/cover-image-light.png");
+  --accent-color: rgba(255, 141, 203, 1);
+  --button-color:rgba(53, 52, 48, 1);
+  --button-accent:rgba(53, 52, 48, 1);
+  --header-color:rgba(255, 194, 230, 1);
+  --section-title:rgba(53, 52, 48, 1);
+  --section-text:rgba(53, 52, 48, 1);
+  .decoration__text {
+  display: none;
+  }
 }
 }

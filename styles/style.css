@@ -67,6 +67,7 @@
 
 .header__theme-menu-button_active {
   border: 1px solid var(--button-color);
+  pointer-events: none;
   text-align: center;
 }
 
