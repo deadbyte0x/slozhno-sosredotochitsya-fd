@@ -1,12 +1,13 @@
 :root {
-  --bg-image-dark: url("../images/cover-image-dark.png");
+  --bg-image: url("../images/cover-image-dark.png");
   --accent-color: rgba(255, 0, 112, 1);
   --button-color:rgba(255, 0, 112, 1);
   --button-accent:rgba(255, 0, 112, 0.4);
   --header-color:rgba(219, 0, 255, 1);
-  --header-size-mobile:clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  ---size:clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --mobile-padding: 10px;
   --desktop-padding:20px;
-  --section-title: rgba(0, 0, 40, 1);
+  --text-color: rgba(0, 0, 40, 1);
   --section-text:rgba(241, 178, 206, 1);
+  --section-title:rgba(255, 0, 112, 1);
 }
